@@ -1,1 +1,37 @@
+header{
+    display: grid; 
+    grid-template-columns: auto 1fr auto;
+}
+a.logo, a.globe, a.search{
+    height: 50px;
+    width: 100px;
+    display: flex;
+}
+
+.rightdesktop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #555555;
+}
+header nav.center{
+    text-align: center;
+}
+main{ 
+    padding-top: 75px;
+}
+
+.first, .second, .third, .fourth{
+    display: flex; 
+    width: 100%;
+    min-height: 50vh;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+
+}
 
