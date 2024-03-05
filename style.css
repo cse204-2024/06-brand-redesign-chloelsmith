@@ -98,3 +98,42 @@ p{
     color: #ffffff;
 
  }
+
+.second{
+    height:50vh;
+    border-bottom: 1px solid rgb(218,217,217);
+    margin: 10px;
+    
+}
+#cont{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 400px;
+   
+    
+
+}
+#cont div{
+    height: 370px;
+    width: 335px;
+    margin: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    font-size: 45px;
+    
+}
+#cont div a{
+    text-decoration: none;
+    color: #ffffff;
+ 
+    margin-bottom: 0.5rem
+    
+}
+.third{
+    border-bottom: 1px solid rgb(218,217,217);
+    margin: 10px;
+    height:80vh;
+}
+
