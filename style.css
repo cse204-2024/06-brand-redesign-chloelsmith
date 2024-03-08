@@ -136,6 +136,7 @@ p{
     text-align: center;
     background-size: cover;
     background-position: center center;
+    background-attachment: absolute;
     
     
     
@@ -163,7 +164,7 @@ p{
 .fourth{
     border-bottom: 1px solid rgb(218,217,217);
     margin: 10px;
-    height:80vh;
+    height:400vh;
 
 }
 .wrapper{
@@ -171,9 +172,11 @@ p{
     justify-content: center; 
     height: 60vh;
     width: 300px;
+    margin: 60px;
 
 }
-.employee-img{
-    height:75%;
+.employeee{
+   height: 50vh;
+
 }
 
